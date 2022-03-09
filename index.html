@@ -1,10 +1,350 @@
-<html>
-<head>  
-    <title>HTML Redirect</title>  
-    <meta http-equiv="refresh"
-        content="1; url = https://g4qwaw1laf.execute-api.eu-west-1.amazonaws.com/dev" />  
-</head>  
+<!DOCTYPE html>
+<html lang="en">
 
-<body class="country-es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>😱</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        html,
+        body {
+            height: 100%;
+            font-size: 1rem;
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .gradient {
+            background: #00f;
+            background: linear-gradient(180deg,
+                    #00f 0%,
+                    #0f0 100%);
+        }
+
+        .page-header {
+            margin-top: 4rem;
+            font-size: 1.25rem;
+            color: #fff;
+        }
+
+        .feature {
+            color: #fff;
+        }
+
+        .feature ul {
+            padding-left: 2rem;
+            list-style-type: none;
+        }
+
+        .feature ul li {
+            padding-left: 2rem;
+            background-image: url(../img/check.svg);
+            background-repeat: no-repeat;
+            line-height: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .icon {
+            color: #fff;
+            height: 5rem;
+            width: 5rem;
+            font-size: 1.75rem;
+            border-radius: 100%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .gallery {
+            background-color: whitesmoke;
+        }
+
+        .gallery img {
+            border-radius: 5%;
+        }
+
+        .services {
+            color: #fff;
+        }
+
+        footer {
+            color: #fff;
+            font-size: 1rem;
+            margin: 0;
+            padding: 1rem;
+        }
+
+        .unstyled-button {
+            border: none;
+            padding: 0;
+            background: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">prg</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Caracteristicas</a>
+          </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="document.getElementById('Control').click()" href="#">Control</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Ayuda
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li>
+                                <a class="dropdown-item" onclick="document.getElementById('webapp').click()"
+                                    href="#">webapp</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" onclick="document.getElementById('bash').click()" href="#">bash
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" onclick="document.getElementById('booh').click()" href="#">booh
+                                </a>
+                            </li>
+
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section>
+        <button hidden id='bash' type="button" class="btn btn-primary" data-bs-toggle="modal"
+            data-bs-target="#exampleModal" data-bs-whatever="https://prglinux.github.io/bash">SIR</button>
+
+        <button hidden id='webapp' type="button" class="btn btn-primary" data-bs-toggle="modal"
+            data-bs-target="#exampleModal" data-bs-whatever="https://prglinux.github.io/webapp">SIR</button>
+
+        <button hidden id='bash' type="button" class="btn btn-primary" data-bs-toggle="modal"
+            data-bs-target="#exampleModal" data-bs-whatever="https://prglinux.github.io/bash">SIR</button>
+
+        <button hidden id='booh' type="button" class="btn btn-primary" data-bs-toggle="modal"
+            data-bs-target="#exampleModal" data-bs-whatever="https://prglinux.github.io/booh">SIR</button>
+
+
+    </section>
+
+
+
+    <section class="feature gradient">
+        <div class="col-md-12">
+            <img src="img/app-screenshots/asolear.svg" alt="" class="img-fluid" />
+        </div>
+        <div class="container pt-3">
+            <center>
+                <a class="btn btn-outline-warning btn-lg" onclick="document.getElementById('modal_SIR').click()"
+                    href="#" role="button">
+                    👹
+                </a>
+
+            </center>
+
+            <div class="row align-items-center justify-content-center">
+                <h1>Hola soy Paco, y me llaman paco-meee...🤣🤣</h1>
+                <p class="fw-lighter">Ingeniero experto None, bootstraper pa cualquiercosa</p>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250">
+            <path fill="#fff" fill-opacity="1"
+                d="M0,96L34.3,106.7C68.6,117,137,139,206,122.7C274.3,107,343,53,411,53.3C480,53,549,107,617,117.3C685.7,128,754,96,823,96C891.4,96,960,128,1029,154.7C1097.1,181,1166,203,1234,202.7C1302.9,203,1371,181,1406,170.7L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+
+
+
+
+    <section class="services gradient">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
+            <path fill="#fff" fill-opacity="1"
+                d="M0,96L34.3,106.7C68.6,117,137,139,206,122.7C274.3,107,343,53,411,53.3C480,53,549,107,617,117.3C685.7,128,754,96,823,96C891.4,96,960,128,1029,154.7C1097.1,181,1166,203,1234,202.7C1302.9,203,1371,181,1406,170.7L1440,160L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z">
+            </path>
+        </svg>
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-5">
+                    <h1>va be</h1>
+
+                </div>
+                <div class="col-md-5"><img class="img-fluid" src="img/app-screenshots/03b.svg" alt="" /></div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 210">
+            <path fill="#fff" fill-opacity="1"
+                d="M0,96L34.3,106.7C68.6,117,137,139,206,122.7C274.3,107,343,53,411,53.3C480,53,549,107,617,117.3C685.7,128,754,96,823,96C891.4,96,960,128,1029,154.7C1097.1,181,1166,203,1234,202.7C1302.9,203,1371,181,1406,170.7L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+
+
+
+    <section id='Contacto' class="contact">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-md-5">
+          <img class="img-fluid" src="https://get.pxhere.com/photo/covid-virus-mask-humor-funny-face-comical-coronavirus-senior-elderly-disguise-medical-hair-moustache-nose-eyewear-forehead-facial-hair-glasses-chin-head-hairstyle-eyebrow-beard-mouth-1619439.jpg" alt="Contact image" />
+        </div>   -->
+                <h1>
+                    👹
+                </h1>
+                <div class="col-md-5">
+                    <h1>Contactame:</h1>
+
+                    <div class="mb-3">
+                        <form id="form" action="https://formsubmit.co/admin@asolear.es" method="POST"
+                            enctype="multipart/form-data">
+                            <input class="form-control" type="hidden" name="_captcha" value="false">
+                            <!--  -->
+
+                            <label for="exampleFormControlInput1" class="form-label">Asunto </label>
+                            <select class="form-control" type="select" name="asunto" id="asunto">
+                                <option value="Atencion al cliente">Contratarte</option>
+                                <option value="Confirmacion del Presupuesto">Contratarte</option>
+                                <option value="SIR">Contratarte</option>
+                                <option value="Otro">Pagarte </option>
+                            </select>
+                            <!--  -->
+                            <!-- <label for="exampleFormControlInput1" class="form-label">Mensaje</label> -->
+                            <textarea class="form-control" name="message" placeholder="Tu mensaje " required></textarea>
+                            <!--  -->
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input class="form-control" type="email" name="email" placeholder="Tu email" required>
+                            <!--  -->
+                            <label for="exampleFormControlInput1" class="form-label">Adjuntar documento:</label>
+                            <input type="file" id="myfile" name="myfile" multiple><br><br>
+                            <!--  -->
+                            <input type="checkbox" required>
+                            <label for="exampleFormControlInput1"> Acepto la <a
+                                    onclick="document.getElementById('modal_politica_de_privacidad').click()"
+                                    href="#">Política de
+                                    Privacidad.</a></label>
+
+                            <input type="submit" class="btn btn-primary" value="Enviar">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <footer class="gradient">
+        <div class="container-fluid text-center">
+            <span>Con 💖 by <a href="https://asolear.es">me.es</a></span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
-</html>
+
+
+
+<section id="modal">
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- <h5 class="modal-title" id="exampleModalLabel" style="background-color:DodgerBlue;">   Simulador de Inversion en Renovables</h5> -->
+                    <button type="button" class="btn btn-outline-primary btn-sm" data-bs-dismiss="modal">Inicio</button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <div class="spinner-border" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Send message</button> -->
+                    <iframe id='iframe_direccion'
+                        style="position:fixed; top:60px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+                        Your browser doesn't support iframes </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="cookies">
+    <!-- Button trigger modal -->
+    <button hidden id='modal_cookie_button' type="button" class="btn btn-primary" data-bs-toggle="modal"
+        data-bs-target="#modal_cookie">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal_cookie" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="modal_cookieLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal_cookieLabel"></h5>
+                    <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                </div>
+                <div class="modal-body">
+
+                    <h3> ers Elmo ? </h3>
+                    <p> tonces no hay galletas </p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Aceptar</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script>
+    var exampleModal = document.getElementById('exampleModal')
+    exampleModal.addEventListener('show.bs.modal', function (event) {
+        // Button that triggered the modal
+        var button = event.relatedTarget
+        var recipient = button.getAttribute('data-bs-whatever')
+        document.getElementById('iframe_direccion').src = recipient;
+    })
+
+</script>
+<script>
+    function hazUnaVez() {
+        if (document.cookie.replace(/(?:(?:^|.*;\s*)fdafasdfasdf\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
+            document.getElementById('modal_cookie_button').click()
+            // alert("evento load detectado!");
+            document.cookie = "fdafasdfasdf=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; SameSite=None; Secure";
+        }
+    }
+    window.onload = hazUnaVez;
+
+
+</script>
+
+</html>tml>
